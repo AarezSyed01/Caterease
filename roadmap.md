@@ -1,0 +1,11 @@
+# Current tasks
+- [x] Audit CaterEase dependencies and prepare the staged Express/MySQL migration plan; existing 41 tests pass.
+- [x] Implement the separate Express/mysql2 capstone package with preserved screens, cookie sessions, schema/migrations, local scripts and documentation.
+- [x] Verify 12 real MySQL integration checks, first-admin setup, test-data export/import, desktop/phone browser workflows, all six reports and PDF/Excel downloads; Express and MySQL restart persistence checked.
+- [ ] Migrate original hosted accounts and records locally; blocked on a private authorized source-data export. Hosted preview and real records remain unchanged.
+- [ ] Confirm installation on the user's MacBook; requires running the provided local setup on that machine.
+- [x] Implement public business registration, email login, and preserve legacy accounts.
+- [x] Migrate existing records safely and enforce business isolation across every module and public inquiry.
+- [x] Verify two live business registrations and logins, all reports, inquiry isolation, cross-business attacks, database restrictions, and 40 automated tests; remove verification data. Original administrator session access verified without changing credentials.
+- [x] Remove “(Demo)” from the dashboard business-name display.
+- [ ] Email the owner each new booking inquiry with customer details and event date. Blocked on configuring the owner's sending domain and confirming the recipient email address.
